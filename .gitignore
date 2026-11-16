@@ -1,0 +1,26 @@
+
+# Rust / Cargo
+target/
+
+# Node.js
+node_modules/
+yarn-error.log
+
+# Anchor
+.anchor/
+
+# Ключи и секретные данные — не коммитить
+**/wallet.json
+**/id.json
+**/devnet-wallet.json
+**/*-keypair.json
+**/*.keypair.json
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Индивидуальные адреса токенов и пула
+devnet-pool.json
+devnet-pool.pending.json
